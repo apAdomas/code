@@ -13,7 +13,7 @@ window.addEventListener("DOMContentLoaded", (event) => {
     }
     const colorThemes = [];
     const htmlStyles = getComputedStyle(document.documentElement);
-    const targetStylesheet = document.querySelector("#color-themes");
+    const targetStylesheet = document.querySelector("#color-themes-back");
     const regex = /--([^:\s]+):\s*var\(--([^)]+)\);/g;
   
     if (targetStylesheet) {
