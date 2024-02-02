@@ -25,7 +25,7 @@ window.addEventListener("DOMContentLoaded", (event) => {
           const key = "--" + match[1];
           const value = htmlStyles.getPropertyValue("--" + match[2]);
           styleObject[key] = value;
-        }
+        } 
         colorThemes.push(styleObject);
       }
   
